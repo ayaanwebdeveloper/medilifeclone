@@ -1,0 +1,1007 @@
+.detline{
+    width: 100%;
+    height: 5vh;
+    background-color: #081F3E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+
+}
+.wel{
+    width: 50%;
+    border: 2px  solid white;
+}
+.oh{
+    width: 50%;
+}
+.clol{
+    background-color: #6FA9FE;
+}
+.nav-link{
+    color: white !important;
+    transition: 0.4s;
+    
+
+}
+.nav-link:hover{
+    background-color: #006CFF;
+}
+.os{
+    background-color: #006CFF !important;
+}
+.navbar-brand{
+    margin-left:16vh;
+}
+.mo{
+    margin-left: 10vh;
+}
+.fech{
+    background-color: red;
+    width: 40vh;
+    color: white;
+    font-weight: bold;
+    height: 6vh;
+    margin-left: 5vh;
+    outline: none;
+    border: none;   
+    transition: 0.4s;
+}
+.fech:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: #006CFF;
+ 
+}
+.herosec{
+    width: 100%;
+    height: 150vh;
+    background-image: url(img/hero1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -20vh;
+    display: flex;
+    align-items: center;
+    
+}
+.ds{
+    /* margin-top: -25vh; */
+    margin-left: 30vh;
+}
+.mdo{
+    font-size: 66px;
+    font-weight: bold;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+.mod{
+    animation-duration: 8s;
+    animation-name: fade;
+}
+
+ /* From Uiverse.io by zebra76966 */ 
+.c-button {
+    border: none;
+  }
+  
+  .c-button {
+    background: linear-gradient(140deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);
+    border-radius: 45px;
+    font-size: 25px;
+    text-align: left;
+    padding: 11px 0px 11px 0px;
+    border: 4px solid rgb(37, 37, 37) !important;
+    border-style: outset;
+    box-shadow: -6px -5px 18px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  
+  .c-button .c-main {
+    border-radius: 45px;
+    color: rgba(255, 255, 255, 1);
+    padding: 11px 25px 11px 2px;
+    box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0);
+    transition: all 0.5s ease-in-out;
+    border: 1px solid transparent;
+  }
+  
+  .c-ico .c-blur {
+    background: linear-gradient(318deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);
+    border-radius: 100%;
+    margin-left: 0;
+    padding: 8px 23px;
+    filter: blur(1px);
+    text-align: center;
+  }
+  
+  .c-ico {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .c-ico .ico-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Hovering */
+  
+  .c-button .c-main:hover {
+    box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0.6);
+    border: 1px solid rgba(26, 26, 26,0.5);
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .appform{
+    width:74%;
+    height: 50vh;
+    border: 2px solid black;
+    margin-top: -35vh;
+    margin-left: 30vh;
+    display: flex;
+
+  }
+  .form{
+    background-color: #081F3E;
+    width: 75%;
+    height: 100%;
+  }
+  .time{
+    background-color: #006CFF;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content:space-evenly;
+  }
+  .open{
+    color: white;
+
+  }
+  .form{
+    padding: 20px;
+    
+  }
+  .sosec{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 5vh;
+  }
+  .so{
+    width: 30%;
+    height: 5vh;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: transparent;
+    color: green;
+    font-weight: bold;
+  }
+  .su{
+    width: 15%;
+    cursor: pointer;
+    border: 2px solid #dadada;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+  }
+.pd{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin-top: 3vh;  
+}
+.prd{
+    width: 30%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+.prd::placeholder{
+    font-style: italic;
+    font-size: 20px;
+}
+.final{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 1vh;
+}
+.textar{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* overflow: scroll; */
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+/* From Uiverse.io by SteveBloX */ 
+.aon{
+    width: 200px;
+    height: 60px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    margin-top: 10vh;
+  }
+  
+  .aon:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+      width: 250px;
+  }
+  /* From Uiverse.io by SteveBloX */ 
+.vs {
+    width: 190px;
+    height: 60px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+  }
+  
+  .vs:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+      width: 220px;
+  }
+  .wa{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px  solid; */
+  }
+  .ona1{
+    width: 35%;
+    
+    /* border: 2px solid; */
+
+  }
+  .ona2{
+    width: 25%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/* border: 2px solid; */
+
+  }
+  .no{
+    font-size: 60px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .cord1{
+    display: flex;
+    justify-content: start;
+    
+  }
+.festsec{
+  width: 100%;
+  height: 60vh;
+  margin-top: 10vh;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.fea1{
+  width: 20%;
+  text-align: center;
+}
+.imseo{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  margin-top: 5vh;
+  overflow-x: scroll;
+}
+.nfo{
+  width: 100%;
+  height: 70vh;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+}
+.nfot{
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.nfoi{
+  width: 40%;
+}
+.nfoi >img{
+  width: 100%;
+}
+.foo{
+  font-size: 50px !important;
+  font-weight: bold;
+}
+.upto{
+  width: 100%;
+  height: 70vh;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.uptoc{
+  width: 25%;
+
+}
+.ono{
+  width: 100%;
+}
+.comen{
+  text-decoration: underline;
+  color: gray;
+  cursor: pointer;
+}
+.conta{
+  background-color: #006CFF;
+  width: 100%;
+  height: 80vh;
+  margin-top: 10vh;
+  display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.ogg1{
+  font-size: 46px !important;
+}
+.ogg2{
+  font-size: 56px !important;
+  color: white;
+}
+.side2{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.sona2{
+  margin-top: 3vh;
+}
+.footer{
+  width: 100%;
+  height: 100vh;
+  background-color: #020F20;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fos1{
+  color: white;
+  padding: 30px;
+  /* border: 2px solid white; */
+  width: 25%;
+}
+#ao{
+  transition: 0.3s;
+}
+#ao:hover{
+  cursor: pointer;
+  color:antiquewhite;
+}
+.ln{
+  color: #006CFF;
+}
+.fos2{
+  width: 25%;
+}
+.fos3{
+  width: 30%;
+  height: 79%;
+  margin-top: 30vh;
+  /* border: 2px solid; */
+  margin-top: -5vh;
+}
+.doit{
+  display: flex;
+  align-items: center;
+}
+.bone{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  width: 100%;
+  background-color: #081F3E;
+
+
+  
+}
+.bone >input{
+  width: 90%;
+  margin-top: 5vh;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+  @keyframes fade{
+    to{
+        opacity: 1;
+        margin-bottom: 2vh;
+    }
+    from{
+        opacity: 0;
+        /* margin-top: 2vh; */
+    }
+  }
+  @media  (max-width:768px) {
+    .detline{
+      width: 100%;
+      height: 10vh;
+      background-color: #081F3E;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  
+  }
+  .navbar{
+    margin-top: -1vh;
+  }
+  .wel{
+      width: 50%;
+      border: 2px  solid white;
+  }
+  .oh{
+      width: 50%;
+  }
+  .clol{
+      background-color: #6FA9FE;
+  }
+  .nav-link{
+      color: white !important;
+      transition: 0.4s;
+      
+  
+  }
+  .nav-link:hover{
+      background-color: #006CFF;
+  }
+
+  .navbar-brand{
+      margin-left:16vh;
+  }
+  .mo{
+      margin-left: 10vh;
+  }
+  .fech{
+      background-color: red;
+      width: 40vh;
+      color: white;
+      font-weight: bold;
+      height: 6vh;
+      margin-left: 5vh;
+      outline: none;
+      border: none;   
+      transition: 0.4s;
+  }
+  .fech:hover{
+      transform: scale(1.05);
+      background-color: white;
+      color: #006CFF;
+   
+  }
+  .herosec{
+      width: 100%;
+      height: 150vh;
+      background-image: url(img/hero1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: -20vh;
+      display: flex;
+      align-items: center;
+      
+  }
+  .ds{
+      /* margin-top: -25vh; */
+      margin-left: 30vh;
+  }
+  .mdo{
+      font-size: 66px;
+      font-weight: bold;
+      animation-name: fade;
+      animation-duration: 5s;
+  }
+  .mod{
+      animation-duration: 8s;
+      animation-name: fade;
+  }
+  
+   /* From Uiverse.io by zebra76966 */ 
+  .c-button {
+      border: none;
+    }
+    
+    .c-button {
+      background: linear-gradient(140deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);
+      border-radius: 45px;
+      font-size: 25px;
+      text-align: left;
+      padding: 11px 0px 11px 0px;
+      border: 4px solid rgb(37, 37, 37) !important;
+      border-style: outset;
+      box-shadow: -6px -5px 18px rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+    }
+    
+    .c-button .c-main {
+      border-radius: 45px;
+      color: rgba(255, 255, 255, 1);
+      padding: 11px 25px 11px 2px;
+      box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0);
+      transition: all 0.5s ease-in-out;
+      border: 1px solid transparent;
+    }
+    
+    .c-ico .c-blur {
+      background: linear-gradient(318deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);
+      border-radius: 100%;
+      margin-left: 0;
+      padding: 8px 23px;
+      filter: blur(1px);
+      text-align: center;
+    }
+    
+    .c-ico {
+      position: relative;
+      margin-right: 20px;
+    }
+    
+    .c-ico .ico-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    /* Hovering */
+    
+    .c-button .c-main:hover {
+      box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0.6);
+      border: 1px solid rgba(26, 26, 26,0.5);
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .appform{
+      width:74%;
+      height: 50vh;
+      border: 2px solid black;
+      margin-top: -35vh;
+      margin-left:10vh;
+      margin-bottom: 20vh;
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .form{
+      background-color: #081F3E;
+      width: 105%;
+      height: 100%;
+    }
+    .time{
+      background-color: #006CFF;
+      width: 100%;
+      height: 300vh !important;
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      justify-content:space-evenly;
+    }
+    .open{
+      color: white;
+  
+    }
+    .form{
+      padding: 20px;
+      
+    }
+    .sosec{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 10px;
+      margin-top: 5vh;
+    }
+    .so{
+      width: 30%;
+      height: 5vh;
+      cursor: pointer;
+      border: 2px solid;
+      background-color: transparent;
+      color: green;
+      font-weight: bold;
+    }
+    .su{
+      width: 15%;
+      cursor: pointer;
+      border: 2px solid #dadada;
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
+    }
+  .pd{
+          display: flex;
+          justify-content: space-evenly;
+          padding: 10px;
+          margin-top: 3vh;  
+  }
+  .prd{
+      width: 30%;
+      border: none;
+      background-color: transparent;
+      border-bottom: 2px solid white;
+      outline: none;
+      color: white;
+      font-size: 20px;
+  }
+  .prd::placeholder{
+      font-style: italic;
+      font-size: 20px;
+  }
+  .final{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 10px;
+      margin-top: 1vh;
+  }
+  .textar{
+      width: 50%;
+      height: 15vh;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      /* overflow: scroll; */
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      color: white;
+  }
+  /* From Uiverse.io by SteveBloX */ 
+  .aon{
+      width: 200px;
+      height: 60px;
+      border: 3px solid #315cfd;
+      border-radius: 45px;
+      transition: all 0.3s;
+      cursor: pointer;
+      background: white;
+      font-size: 1.2em;
+      font-weight: 550;
+      margin-top: 10vh;
+    }
+    
+    .aon:hover {
+      background: #315cfd;
+      color: white;
+      font-size: 1.5em;
+        width: 250px;
+    }
+    /* From Uiverse.io by SteveBloX */ 
+  .vs {
+      width: 190px;
+      height: 60px;
+      border: 3px solid #315cfd;
+      border-radius: 45px;
+      transition: all 0.3s;
+      cursor: pointer;
+      background: white;
+      font-size: 1.2em;
+      font-weight: 550;
+    }
+    
+    .vs:hover {
+      background: #315cfd;
+      color: white;
+      font-size: 1.5em;
+        width: 220px;
+    }
+    .wa{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      /* border: 2px  solid; */
+    }
+    .ona1{
+      width: 100%;
+
+      flex-wrap: nowrap;
+      /* border: 2px solid; */
+  
+    }
+    .ona2{
+      width: 100%;
+      /* border: 2px solid; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* flex-direction: column; */
+      text-align: center;
+  /* border: 2px solid; */
+  
+    }
+    .no{
+      font-size: 60px !important;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    .cord1{
+      display: flex;
+      justify-content: start;
+      width: 50%;
+      
+    }
+  .festsec{
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    /* border: 2px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+    margin-top: 20vh;
+    align-items: center;
+    
+  }
+  .fea1{
+    width: 50%;
+    text-align: center;
+  }
+  .imseo{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    margin-top: 5vh;
+    overflow-x: scroll;
+  }
+  .nfo{
+    width: 100%;
+    height: 70vh;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  .nfot{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .nfoi{
+    width: 100%;
+  }
+  .nfoi >img{
+    width: 100%;
+  }
+  .foo{
+    font-size: 50px !important;
+    font-weight: bold;
+  }
+  .upto{
+    width: 100%;
+    height: 70vh;
+    margin-top: 60vh;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom:80vh;
+  }
+  .uptoc{
+    width: 40%;
+    margin: 5vh;
+  
+  }
+  .ono{
+    width: 100%;
+  }
+  .comen{
+    text-decoration: underline;
+    color: gray;
+    cursor: pointer;
+  }
+  .conta{
+    background-color: #006CFF;
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+  .ogg1{
+    font-size: 46px !important;
+  }
+  .ogg2{
+    font-size: 56px !important;
+    color: white;
+  }
+  .side1{
+    width: 100%;
+    margin-left: 30vh;
+  }
+  .side2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .sona2{
+    margin-top: 3vh;
+  }
+  .footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #020F20;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .fos1{
+    color: white;
+    padding: 30px;
+    /* border: 2px solid white; */
+    width: 25%;
+  }
+  #ao{
+    transition: 0.3s;
+  }
+  #ao:hover{
+    cursor: pointer;
+    color:antiquewhite;
+  }
+  .ln{
+    color: #006CFF;
+  }
+  .fos2{
+    width: 25%;
+  }
+  .fos3{
+    width: 30%;
+    height: 79%;
+    margin-top: 30vh;
+    /* border: 2px solid; */
+    margin-top: -5vh;
+  }
+  .doit{
+    display: flex;
+    align-items: center;
+  }
+  .bone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    width: 100%;
+    background-color: #081F3E;
+  
+  
+    
+  }
+  .bone >input{
+    width: 90%;
+    margin-top: 5vh;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  }
+
+  /* about section */
+  .absec{
+    width: 100%;
+    height:30vh;
+    background-image: url(img/ops.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .uol{
+    margin-left: 8vh;
+  }
+  #so{
+    font-size: 56px !important;
+    font-weight: bold;
+  }
+  .aboutus{
+    width: 100%;
+    height: 80vh;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7vh;
+  }
+  .aboutt{
+    width: 40%;
+  }
+  .abouti{
+    width: 50%;
+
+  }
+  .aos{
+    width: 100%;
+  }
+  .snow{
+    font-size: 56px !important;
+    font-weight: bold;
+  }
+  .vodio{
+    width: 100%;
+    height: 63vh;
+    /* border: 2px solid; */
+    background-image: url(img/open\ hou.png);
+display: flex;
+justify-content: space-around;
+align-items: center;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .vod{
+    width: 40%;
+    height: 60vh;
+    background-image: url(img/a.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .vodt{
+    width: 30%;
+    color: white;
+  }
+  .onaca{
+    font-size: 56px !important;
+  }
+  .donate{
+    width: 100%;
+    height: auto;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
